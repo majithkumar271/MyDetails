@@ -1,0 +1,198 @@
+*{
+    background-color: white;
+    font-size: 20px;
+    color: black;
+    margin: 1%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+#head{
+    margin-left: 10%;
+    display: flex;
+    justify-content: flex-end;
+
+
+
+}
+
+button{
+    border-radius: 5px;
+    display: list-item;
+    justify-content: space-between;
+}
+
+
+
+
+.items:hover{
+    background-color: lightblue;
+    color: black;
+    box-shadow: -0.3ch 0.3ch  -0.3ch 0.3ch  0.5ch whitesmoke;
+
+}
+
+
+.items{
+    flex:1;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px auto;
+    text-align: center;
+    padding: 2px;
+    cursor: pointer;
+
+}
+
+
+
+
+
+fieldset{
+    margin-top: 10%;
+    border: soild 1px rgb(161, 238, 220);
+    height: auto;
+    width: 60%;
+    line-height: 4ch;
+    color: white;
+
+    padding: 10px auto;
+    border-radius: 20px;
+    box-shadow: -0.3ch -0.3ch 5ch 1ch rgb(35, 221, 242);
+    box-shadow: 0.3ch 0.3ch 5ch 1ch rgb(84, 225, 213);
+    text-align: center;
+    padding: 10px auto;
+}
+
+legend{
+    border:1px solid   burlywood;
+    border-radius: 8px;
+    box-shadow: -0.3ch -0.3ch 1ch 1ch rgb(11, 164, 181);
+    box-shadow: 0.3ch 0.3ch 1ch 1ch rgb(29, 8, 210);
+}
+
+
+.footer{
+    text-align: center;
+    padding: 30PX;
+
+}
+
+
+@media screen and (max-device-width:360px),screen and (min-width:320px) and (orientation:portrait)
+
+
+{ 
+*{
+    background-color: black;
+    font-size: 10px;
+    color: white;
+    margin: 1%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+
+#head{
+    margin-left: 10%;
+    display: flex;
+    justify-content: flex-end;
+
+
+
+}
+
+    
+    fieldset{
+        margin: 4%;
+        width: 80%;
+
+    }
+
+}
+
+
+
+
+
+
+
+@media screen and (max-device-width:414px),screen and (max-width:414px)
+{
+
+
+    *{
+        background-color: black;
+        font-size: 10px;
+        color: white;
+        margin: 1%;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    
+    
+    
+    
+    
+    #head{
+        margin-left: 10%;
+        display: flex;
+        justify-content: flex-end;
+    
+    
+    
+    }
+    
+        
+        fieldset{
+            margin: 4%;
+            width: 80%;
+    
+        }
+    fieldset{
+        margin: 4%;
+        width: 80%;
+
+    }
+
+}
+
+
+
+@media screen and (max-device-width:768px),screen and (max-width:768px){
+    *{
+        background-color: black;
+        font-size: 10px;
+        color: white;
+        margin: 1%;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    
+    
+    
+    
+    
+    #head{
+        margin-left: 10%;
+        display: flex;
+        justify-content: flex-end;
+    
+    
+    
+    }
+    
+        
+        fieldset{
+            margin: 4%;
+            width: 80%;
+    
+        }
+}

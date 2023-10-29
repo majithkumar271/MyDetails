@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="home.js"></script>
+    <script>
+        
+
+function fun(str1){
+    var s1=document.getElementsByClassName('items')
+    if (str1=='about'){
+        window.location='about.html'
+    }else 
+    if (str1=='index'){
+        window.location='index.html'
+    }else
+    if (str1=='Skills'){
+        window.location='skills.html'
+    }else
+    if (str1=='contact'){
+        window.location='contact.html'
+    }else
+    if (str1=='portfolio'){
+        window.location='portfolio.html'
+    }
+}
+
+    </script>
+  
+</head>
+
+
+<body>
+    <div id="head">
+        <button class="items" onclick="fun('index')">Home</button>
+        <button class="items" onclick="fun('about')">About</button>
+        <button class="items" onclick="fun('Skills')">Skills</button>
+        <button class="items" onclick="fun('portfolio')">Potfolio</button>
+        <button class="items" onclick="fun('contact')">Contact</button>
+    </div>
+
+    <div class="table">
+        <div class="rows">
+            <button class="cell" id="0" onclick="fun('0')"></button>
+            <button class="cell" id="1" onclick="fun('1')"></button>
+            <button class="cell" id="2" onclick="fun('2')"></button>
+        </div>
+        <div class="rows">
+            <button class="cell" id="3" onclick="fun('3')"></button>
+            <button class="cell" id="4" onclick="fun('4')"></button>
+            <button class="cell" id="5" onclick="fun('5')"></button>
+        </div>
+        <div class="rows">
+            <button class="cell" id="6" onclick="fun('6')"></button>
+            <button class="cell" id="7" onclick="fun('7')"></button>
+            <button class ="cell" id="8" onclick="fun('8')"></button>
+        </div>
+    </div>
+
+   <center>
+   &copy; 2023 MY WEBSITE ALL RIGHTS RESERVERD
+</center>
+</body>
+</html>
